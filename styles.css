@@ -91,7 +91,7 @@ body {
 
 }
 
-.section-flex-grid-container {
+.section-flex-container {
     display: flex;
     flex-direction: column;
     align-content: space-between;

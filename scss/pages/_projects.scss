@@ -1,0 +1,17 @@
+.projects-flex-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5%;
+    .a--image {
+        width: 60%;
+        height: 80%;
+        justify-items: center;
+    }
+}
+@media screen and (min-width: 600px) {
+
+    .project-title {
+        font-size: 2rem;
+    }
+}

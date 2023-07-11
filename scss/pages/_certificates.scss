@@ -1,0 +1,18 @@
+.certificates-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-between;
+    margin-top: 20px;
+
+    .anchor-certificate {
+        width: 45%;
+
+        .certificate {
+            width: 90%;
+            margin: 3%;
+        }
+
+    }
+
+}

@@ -1,0 +1,57 @@
+.header-flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-size: 1.5rem;
+    justify-content: space-around;
+    margin: 2%;
+
+    .div--header {
+        background-color:$firstcolor;
+        border-radius: 3%;
+        border: solid $secondcolor 3px;
+        padding-left: 3%;
+        padding-right: 3%;
+        padding-top: 1%;
+        padding-bottom: 1%;
+    }
+
+    .div-box--author {
+        background-color:$secondcolor;
+        border-radius: 20%;
+        border-style: outset;
+        border-color:$thirdcolor;
+        padding: 1%;
+        align-self: center;
+
+        .author {
+            font-size: 1rem;
+            animation-name: bio;
+            animation-duration: 6s;
+        }
+    }
+
+    .header {
+        animation-name: bio;
+        animation-duration: 6s;
+    }
+}
+@media screen and (min-width:600px) {
+    .header-flex-container {
+        .div-box--author {
+            .author {
+                font-size: 2rem;
+            }
+        }
+    }
+}
+
+@media screen and (min-width:806px) {
+    .header-flex-container {
+        .div-box--author {
+            .author {
+                font-size: 3rem;
+            }
+        }
+    }
+}

@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="../styles.css">
+        <meta name="description" content="Let's talk about your next project! Contact me to discuss your web development ideas and needs. I'm ready to create a customized solution.">
+        <link rel="stylesheet" href="../css/main.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -59,13 +60,17 @@
     </nav>
         <section>
             <form>
+                <div class="form-container">
                 <label for="name">Name</label><br>
-                <input type="text" name="name"id="name"><br>
+                <input type="text" name="name"id="name" required><br>
                 <label for="email">e-mail</label><br>
-                <input type="email" name="email" id="email"><br>
+                <input type="email" name="email" id="email" required><br>
                 <label for="message">Your message</label><br>
-                <textarea name="message" id="message" placeholder="your message..."></textarea><br>
-                <input type="submit" name="contactme" id="contactme" value="Contact me">
+                <textarea name="message" id="message" placeholder="your message..."required></textarea><br>
+                <div class="btn-container">
+                <input type="submit" name="contactme" id="contactme" value="Contact me" class="submit-btn">
+                </div>
+            </div>
             </form>
         </section>
     </main>

@@ -1,0 +1,39 @@
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+
+    .footer-flex--barcontainer {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        text-align: center;
+        background-color:$alpha-secondcolor;
+
+        #footer--description {
+            font-size: 1.3rem;
+            text-align: center;
+        }
+
+        .space-line-flex {
+            width: 1%;
+        }
+
+        .div--logo {
+            font-family:$iconsfont;
+            font-size: 1.3rem;
+
+        }
+
+    }
+}
+@media screen and (min-width:806px) {
+    footer {
+        .footer-flex--barcontainer {
+            #footer--description {font-size: 1.6rem;}
+            .div--logo {font-size: 1.6rem;}
+        }
+    }
+}

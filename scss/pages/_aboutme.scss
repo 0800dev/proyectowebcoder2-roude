@@ -1,0 +1,33 @@
+.aboutme-bio {
+    margin: 7% 5% 7% 5%;
+    animation-name: bio;
+    animation-duration: 6s;
+
+    h1 {
+        color:$thirdcolor;
+        font-family: $secondfont;
+    }
+
+}
+@keyframes bio {
+    0% {
+        color: #fff;
+    }
+
+    25% {
+        color: orange;
+    }
+
+    50% {
+        color: orange;
+    }
+
+    75% {
+        color: #fff;
+    }
+}
+@media screen and (min-width:806px) {
+    #aboutme {
+        font-size: 2rem;
+    }
+}
